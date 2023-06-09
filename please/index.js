@@ -13,7 +13,7 @@ nunjucks.configure('chart', {
 
 // MySQL connection 설정
 const connection = mysql.createConnection(
-    {host: 'localhost', user: 'root', password: 'wlsyddlwhswkf1@', database: 'my_db'}
+    {host: 'localhost', user: 'root', password: '', database: 'my_db'}
 );
 
 //uploads 폴더 생성
